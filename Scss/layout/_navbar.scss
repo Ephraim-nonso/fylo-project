@@ -1,0 +1,39 @@
+nav {
+  height: 120px;
+  margin: auto 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .nav-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    .nav-link {
+      margin: auto 20px;
+      a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+          color: hsl(176, 68%, 64%);
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 800px) {
+    margin: auto;
+    height: 80px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 30px 50px;
+    img {
+      width: 50%;
+    }
+    .nav-link {
+      font-size: 12px;
+      margin: auto 5px;
+    }
+  }
+}

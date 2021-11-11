@@ -1,0 +1,21 @@
+.btn {
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(
+    40deg,
+    hsl(198, 60%, 50%),
+    hsl(176, 68%, 64%)
+  );
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  padding: 7px 12px;
+  border-radius: 20px;
+  border: none;
+  &:hover {
+    background-image: linear-gradient(
+      40deg,
+      hsl(176, 68%, 64%),
+      hsl(198, 60%, 50%)
+    );
+  }
+}
